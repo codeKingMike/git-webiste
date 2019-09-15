@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #BBBCBC;
+}
+nav {
+    width: 80%;
+    margin: 0 auto;
+    height: 60px;
+}
+.windowText {
+    font-size: 18px;
+}
+nav h1, nav .windowTetx {
+    text-transform: lowercase;
+}
+.ulList {
+    margin-right: 80px;
+}
+/* .ulList a {
+    margin-right: 80px;
+} */
+li {
+    display: inline-block;
+    color: #01478E;
+    margin: 0 20px 0 0;
+    font-weight: 300;
+}
+li:nth-child(1) {
+    font-weight: bold;
+}
+li:last-child {
+    margin: 0 -20px 0 0;
+}
+#mainSection {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #BBBCBC;
+}
+.mainSection h6 {
+    width: 20%;
+}
+main {
+    background-color: #BBBCBC;
+    margin-top: -24px;
+    border-bottom: 5px solid #01478E;
+}
+#blueBox {
+    height: 50px;
+    background-color: #295FAA;
+    
+}
+#tools {
+    border-top: 4px solid #7197C1;
+    border-bottom: 4px solid #7197C1;
+    height: 89px;
+    font-weight: 400;
+    -webkit-box-shadow: 0 4px 6px -6px #295FAA;
+    -moz-box-shadow: 0 4px 6px -6px #295FAA;
+    box-shadow: 0 4px 6px 6px #295FAA;
+}
+#tools h2 {
+    font-weight: 200;
+    word-spacing: 4.5px;
+    letter-spacing: 1.3px;
+}
+#toolContent {
+    min-height: 120vh;
+    background-color: #295FAA;
+    display: flex;
+    justify-content: center; 
+    padding: 30px 200px;
+}
+.toolTextContent {
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 1.6em;
+    color: rgba(255, 255, 255, 0.9);
+}
+.toolTextContent h3 {
+    font-weight: 300;
+    word-spacing: 2px;
+
+}
+#contribute {
+    border-top: 4px solid #7197C1;
+    border-bottom: 4px solid #7197C1;
+    height: 89px;
+    -webkit-box-shadow: 0 4px 6px -6px #295FAA;
+    -moz-box-shadow: 0 4px 6px -6px #295FAA;
+    box-shadow: 0 4px 6px 6px #295FAA;
+}
+#contribute h2 {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+#contributeContent {
+    min-height: 120vh;
+    background-color: #295FAA;
+    display: flex;
+    justify-content: center; 
+    padding: 30px 200px;
+    flex-direction: row-reverse;
+}
+.buttonBtn {
+    
+    
+}
+hr {
+    margin-right: 80px;
+}
