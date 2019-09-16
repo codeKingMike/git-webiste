@@ -125,13 +125,17 @@ footer {
 hr {
     margin-right: 80px;
 }
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
     body {
       
+  }
+  
+  @media screen and (max-width: 800px) {
+    body {
+      background-color: lavender;
     }
-    #splitImage {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .buttonBtn {
+        
     }
     .buttonBtn {
         padding-bottom: 40px;
@@ -140,13 +144,4 @@ hr {
         display: grid;
         padding: 20px 80px 20px 0;
     }
-  }
-  
-  @media screen and (min-width: 800px) {
-    body {
-      background-color: lavender;
-    }
-    .buttonBtn {
-        
-    }
-  
+}
