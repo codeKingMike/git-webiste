@@ -44,10 +44,20 @@ li:last-child {
     height: 50vh;
 }
 #mainSection h3 {
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: 300;
 }
 .mainSection h6 {
     width: 20%;
+}
+.mainTitle {
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.buttonBtn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
 main {
     background-color: #BBBCBC;
