@@ -110,6 +110,18 @@ main {
     
     
 }
+footer {
+    background: #E6E6E6;
+}
+#footerLinks {
+    padding: 30px 0 10px 0;
+}
+#footerLinks li {
+    text-transform: uppercase;
+}
+#footerLinks a:hover {
+    text-decoration: none;
+}
 hr {
     margin-right: 80px;
 }
