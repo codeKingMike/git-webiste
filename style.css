@@ -174,4 +174,7 @@ hr {
         display: grid;
         padding: 20px 80px 20px 30px;
     }
+    .gitChar {
+        float: right;
+    }
 }
