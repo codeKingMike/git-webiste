@@ -128,6 +128,21 @@ hr {
 @media screen and (max-width: 400px) {
     body {
       
+    }
+    #splitImage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .buttonBtn {
+        padding-bottom: 40px;
+    }
+    #toolContent {
+        display: grid;
+        padding: 20px 80px 20px 0;
+    }
+    .col-sm-5, .col-sm-7 {
+        width: 50%;
+    }
   }
   
   @media screen and (max-width: 800px) {
