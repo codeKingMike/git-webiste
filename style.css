@@ -7,7 +7,7 @@ header {
     background-color: #BBBCBC;
 }
 nav {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     height: 60px;
 }
@@ -36,9 +36,16 @@ li:last-child {
     margin: 0 -20px 0 0;
 }
 #mainSection {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     background-color: #BBBCBC;
+}
+#mainSection img {
+    height: 50vh;
+    width: 200vw;
+}
+#mainSection h3 {
+    font-size: 3rem;
 }
 .mainSection h6 {
     width: 20%;
