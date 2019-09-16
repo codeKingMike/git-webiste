@@ -170,4 +170,8 @@ hr {
         display: grid;
         padding: 20px 80px 20px 0;
     }
+    #contributeContent {
+        display: grid;
+        padding: 20px 80px 20px 30px;
+    }
 }
