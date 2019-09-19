@@ -181,6 +181,17 @@ hr {
     #toolContent h3 {
         margin-top: 80px;
     }
+    #contributeContent p {
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+    #contributeContent h3 {
+        margin-top: 80px;
+    }
+    #contributeContent button {
+        margin: 20px;
+        padding: 10px 20px;
+    }
     .gitChar {
         float: right;
     }
