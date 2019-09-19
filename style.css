@@ -106,6 +106,17 @@ main {
     padding: 30px 200px;
     flex-direction: row-reverse;
 }
+.contributeTextContent {
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 1.6em;
+    color: rgba(255, 255, 255, 0.9);
+}
+.contributeTextContent h3 {
+    font-weight: 300;
+    word-spacing: 2px;
+}
 .buttonBtn {
     
     
@@ -124,4 +135,53 @@ footer {
 }
 hr {
     margin-right: 80px;
+}
+@media screen and (max-width: 400px) {
+    body {
+      
+    }
+    #splitImage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .buttonBtn {
+        padding-bottom: 40px;
+    }
+    #toolContent {
+        display: grid;
+        padding: 20px 80px 20px 0;
+    }
+    .col-sm-5, .col-sm-7 {
+        width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+    .buttonBtn {
+        
+    }
+    .buttonBtn {
+        padding-bottom: 40px;
+    }
+    #toolContent {
+        display: grid;
+        padding: 20px 80px 20px 0;
+    }
+    #contributeContent {
+        display: grid;
+        padding: 20px 80px 20px 30px;
+    }
+    #toolContent p {
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+    #toolContent h3 {
+        margin-top: 80px;
+    }
+    .gitChar {
+        float: right;
+    }
 }
