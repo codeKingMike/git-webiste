@@ -19,10 +19,11 @@ nav h1, nav .windowTetx {
 }
 .ulList {
     margin-right: 80px;
+    display: flex;
 }
-/* .ulList a {
-    margin-right: 80px;
-} */
+.ulList a {
+    margin-right: 20px;
+}
 li {
     display: inline-block;
     color: #01478E;
@@ -40,9 +41,6 @@ li:last-child {
     margin: 0 auto;
     background-color: #BBBCBC;
 }
-.mainSection h6 {
-    width: 20%;
-}
 main {
     background-color: #BBBCBC;
     margin-top: -24px;
@@ -51,7 +49,6 @@ main {
 #blueBox {
     height: 50px;
     background-color: #295FAA;
-    
 }
 #tools {
     border-top: 4px solid #7197C1;
@@ -84,7 +81,6 @@ main {
 .toolTextContent h3 {
     font-weight: 300;
     word-spacing: 2px;
-
 }
 #contribute {
     border-top: 4px solid #7197C1;
@@ -117,10 +113,6 @@ main {
     font-weight: 300;
     word-spacing: 2px;
 }
-.buttonBtn {
-    
-    
-}
 footer {
     background: #E6E6E6;
 }
@@ -137,9 +129,6 @@ hr {
     margin-right: 80px;
 }
 @media screen and (max-width: 400px) {
-    body {
-      
-    }
     #splitImage {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -159,9 +148,6 @@ hr {
   @media screen and (max-width: 800px) {
     body {
       background-color: lavender;
-    }
-    .buttonBtn {
-        
     }
     .buttonBtn {
         padding-bottom: 40px;
@@ -191,6 +177,12 @@ hr {
     #contributeContent button {
         margin: 20px;
         padding: 10px 20px;
+    }
+    .mainSection h6 {
+        padding-bottom: 20px;
+    } 
+    .ulList {
+        margin-top: 15px;
     }
     .gitChar {
         float: right;
